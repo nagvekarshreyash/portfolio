@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: rgb(7, 7, 48);
+  color: white;
+  font-family: "League Spartan";
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: rgb(18, 18, 88);
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin-left: 288px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(255, 238, 238);
+  margin: 0 23px;
+}
+
+nav ul li a:hover {
+  color: blueviolet;
+  cursor: grab;
+  font-size: 1.02rem;
+}
+
+
+
+.left {
+  margin-left: 100px;
+  font-size: 2rem;
+
+  height: 6rem;
+  line-height: 6rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0;
+
+}
+
+.firstleft img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-right: -130px;
+}
+
+
+
+
+.leftSection {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  font-size: 3rem;
+  /* line-height: 3rem; */
+  padding: 30px;
+
+  margin-top: 45px;
+  margin-left: 53px;
+
+  /* background-color: black; */
+}
+
+.rightSection {
+  width: 30%;
+  margin: -36px 0;
+}
+
+.rightSection img {
+  margin-top: 20px;
+  height: 368px;
+  width: 431px;
+  margin-left: -40px;
+}
+
+
+
+.purple {
+  color: blueviolet;
+}
+
+#element {
+  color: blueviolet;
+}
+
+.line1 {
+  max-width: 80vw;
+  margin-left: 121px;
+  background: #000;
+
+}
+
+.line2 {
+  background: #000;
+}
+
+.secondSection {
+
+  max-width: 80vw;
+  margin: auto;
+  height: 691px
+}
+
+.para {
+  font-style: italic;
+  font: size 1rem;
+
+}
+
+.skills {
+
+  /* background-color: beige; */
+  height: 350px;
+  width: 1098px;
+  display: flex;
+
+}
+
+.leftSec2 {
+  background-color: #7f84f33d;
+  height: 307px;
+  width: 366px;
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  font-style: italic;
+}
+
+.leftSec2:hover {
+  background-color:#5d629e;
+
+}
+
+.leftSec2 h3 {
+  margin-left: 99px;
+}
+
+.ACADEMIC {
+  display: flex;
+  justify-content: center;
+  margin-left: -230px;
+  margin-top: 80px;
+
+}
+
+.midSec2 {
+  background-color: #7f84f33d;
+  height: 307px;
+  width: 366px;
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  font-style: italic;
+}
+
+.midSec2:hover {
+  background-color:#5d629e;
+}
+
+.midSec2 h3 {
+  margin-left: 99px;
+}
+
+.ACADEMIC2 {
+  display: flex;
+  justify-content: center;
+  margin-left: -123px;
+  margin-top: 80px;
+
+}
+
+.rightSec2 {
+
+  background-color: #7f84f33d;
+  height: 307px;
+  width: 366px;
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  font-style: italic;
+}
+
+.rightSec2:hover {
+
+  background-color:#5d629e;
+}
+
+.rightSec2 h3 {
+  margin-left: 99px;
+}
+
+.ACADEMIC3 {
+  display: flex;
+  justify-content: center;
+  margin-left: -200px;
+  margin-top: 80px;
+
+}
+
+.ACADEMIC3 ul li {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+
+.box {
+  background: aliceblue;
+  height: 3px;
+  width: 1213px;
+  margin-top: 40px;
+  display: flex;
+  
+}
+.vertical{
+  background: aliceblue;
+  height: 50px;
+  width: 2px;
+  margin: 0 100px;
+}
+.image-top {
+  width: 90px;
+  position: relative;
+  top: -57px;
+  left: -47px;
+}
+
+.vertical-text{
+  position: relative;
+  top: -17px;
+left: -78px;
+width:152px ;
+}
+footer{background-color: #090922;
+  height: 233px;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 21px 171px;
+  MARGIN-LEFT: -260PX;
+}
+.footer-second {
+  position: relative;
+  top: 56px;
+  left: -340px;
+
+}
+.details{
+ font-size: 1rem;
+  height: 100px;
+  width: 550px
+}
+.footer-third{
+  margin-left: -101px;
+    position: relative;
+    left: -115px;
+    top: 71px;
+}
+.footer-third ul{
+  display: grid;
+}
